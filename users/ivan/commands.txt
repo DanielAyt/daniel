@@ -9,6 +9,7 @@ mkdir ivan
 cd ivan
 nano users/ivan/readme.md
 nano commands.txt
+cd ../..
 git add .
 git commit -m "Add path users/ivan, files readme.md and commands.txt"
 git push
