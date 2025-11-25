@@ -1,0 +1,14 @@
+git config --global user.name "IvanYurushuk"
+git config --global user.email "yurushuck@yandex.com"
+cd /c/Users/User/git/first_task
+git clone https://github.com/username/1_task.git
+cd 1_task
+mkdir users
+cd users
+mkdir ivan
+cd ivan
+nano users/ivan/readme.md
+nano commands.txt
+git add .
+git commit -m "Add path users/ivan, files readme.md and commands.txt"
+git push
